@@ -7,16 +7,6 @@
 .App-container{
     background-color: #000000;
 }  
-.btn-menu{
-    border: none;
-    margin: 2px;
-    border-radius: 5px;
-}
-.btn-menu:hover{
-    background-color: rgb(177, 177, 177);
-    color: white;
-    transition: 0.5s;
-}
 @media screen and (max-width:500px) {
     
     .App{

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Navprofile() {
+  
   return (
     <div className=' d-flex flex-column'>
         <Link to="/burger"><button className="btn btn-sm btn-light w-100">Pizza Gold</button></Link>

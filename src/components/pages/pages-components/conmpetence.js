@@ -2,7 +2,7 @@ function Competence() {
     return ( <>
     <div className=" col-6 text-start">
                 <h2 className=" text-light text-start text-uppercase">
-                Compétences et connassnace en informatique
+                COMPETENCES ET CONNAISSANCES EN INFORMATIQUE
                 </h2>
             </div>
             <div className=" col-6 text-start d-flex flex-column">

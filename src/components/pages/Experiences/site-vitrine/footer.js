@@ -12,7 +12,7 @@ function Footer() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quidem recusandae explicabo veniam voluptatem voluptatum reprehenderit dignissimos ipsum magnam accusantium.</p>
                         </div>
                         <div className="service">
-                            <h3>Nous envoyez un message</h3>
+                            <h3>Nous envoyer un message</h3>
                             <input type="name" id="name" name="name" placeholder="votre nom"/><br/>
                             <input type="e-mail" id="email" name="email" placeholder="votre email"/><br/>
                             <textarea name="message" id="message" cols="22" rows="2" placeholder="votre message"></textarea><br/>

@@ -54,7 +54,7 @@ export default class Todolist extends Component {
           <input
             className=" m-2 input-group-text p-2"
             type="text"
-            placeholder="entrer le todo"
+            placeholder="entrer le nom"
             value={this.state.entrerTodo}
             onChange={this.changeTodo.bind(this)}
           />

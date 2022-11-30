@@ -37,7 +37,10 @@ function App() {
     
 
     return ( <div className="App-container m-0 p-0">
-        <button onClick={voirMenu} className="btn-menu ">{menuIcon?<img src="menu-app-fill.svg" alt="menu" />:<img src="menu-app.svg" alt="menu"/>}</button>
+        <button className="btn-menu " onClick={voirMenu} >
+            {menuIcon?<img src="menu-app-fill.svg" alt="menu" style={{borderRadius:'50'}} />:<img src="menu-app.svg" alt="menu" style={{borderRadius:'50'}}/>}
+        </button>
+
         <div className=" d-flex flex-row" id="menuBtn">
             <Link to="/" className="a col-12 text-decoration-none"><p className=" gaby text-end m-0 pe-2 align-self-center fw-bold">Accueil</p></Link>
         </div>

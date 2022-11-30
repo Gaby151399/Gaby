@@ -1,6 +1,6 @@
 
 .titre{
-    padding:100px 0px 100px 0px;
+    padding:50px 0px 50px 0px;
     animation: tracking-in-contract-bck-top 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 @-webkit-keyframes tracking-in-contract-bck-top {
@@ -59,6 +59,12 @@
   position: fixed;
   top: 0px;
   left: 2px;
+  z-index: 1;
+}
+.btn-menu:hover{
+    background-color: rgb(177, 177, 177);
+    color: white;
+    transition: 0.5s;
 }
 .menu .lien{
     text-decoration: none;

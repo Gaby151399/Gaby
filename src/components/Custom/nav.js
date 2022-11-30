@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "./logo";
 import Navprofile from "./nav-profile";
 import Sociaux from "./sociaux";
-import Slide from "react-reveal/Slide"
+import Zoom from 'react-reveal/Zoom';
 
 function Nav() {
 
@@ -30,7 +30,7 @@ function Nav() {
                                 <h6 className=" ps-5 m-0 text-dark">EXPERIENCES</h6>
                             </div>
                             {hover && (
-                                <Slide left><Navprofile className="nav-profile"/></Slide>
+                                <Zoom top><Navprofile className="nav-profile"/></Zoom>
                             )}
                         </Link>
                     </div>
