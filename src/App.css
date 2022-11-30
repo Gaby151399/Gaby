@@ -1,0 +1,32 @@
+.App{
+    font-family:serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.App-container{
+    background-color: #000000;
+}  
+.btn-menu{
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+}
+.btn-menu:hover{
+    background-color: rgb(177, 177, 177);
+    color: white;
+    transition: 0.5s;
+}
+@media screen and (max-width:500px) {
+    
+    .App{
+        display: flex;
+        flex-direction: column;
+    }
+    .App .col-2, .App .col{
+        width: 100%;
+    }
+}
+.gaby:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+
+.titre{
+    padding:100px 0px 100px 0px;
+    animation: tracking-in-contract-bck-top 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+    
+.sous-titre{    
+    padding: 50px 0px 50px 0px;
+}
+.paragraphe{
+    padding: 0px 0px 50px 0px;
+    width: 45%;
+    text-align: left;
+    word-break: break-word;
+}
+.accueil .btn-link{
+    padding: 0px 0px 50px 0px;
+}
+/*--------------------------------NAV*/
+.menu{
+    transition: 2s;
+    position: fixed;
+    top: 20px;
+    left: 2px;
+}
+.btn-menu{
+  position: fixed;
+  top: 0px;
+  left: 2px;
+}
+.menu .lien{
+    text-decoration: none;
+    padding: 5px 0px 5px 0px;
+    border-top: solid 1px rgb(151, 151, 151);
+}
+.menu .lien:hover{
+    background-color: rgb(147, 255, 255);
+    transition: 0.8s;
+}
+.menu .lien h6{
+    align-self: center;
+    font-weight: 800;
+}
+.sociaux .a{
+    border-top: solid 1px rgb(151, 151, 151);
+}
+.sociaux a img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    opacity: 0.7;
+}

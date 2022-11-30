@@ -1,0 +1,18 @@
+@media screen and (max-width:800px) and (min-width:500px) {
+    
+.titre{
+    padding:100px 0px 100px 0px;
+}
+.sous-titre{    
+    padding: 50px 0px 50px 0px;
+}
+.paragraphe{
+    padding: 0px 0px 50px 0px;
+    text-align: left;
+    width: 400px;
+    word-break: break-word;
+}
+.accueil .btn-link{
+    padding: 0px 0px 50px 0px;
+}
+}
