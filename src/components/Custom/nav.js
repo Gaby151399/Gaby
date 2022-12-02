@@ -27,7 +27,7 @@ function Nav() {
                         <Link to="/profile" className="lien d-flex flex-column"  onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
                             <div className=" d-flex flex-row">
                                 <img src="person.svg" alt="icon"/>
-                                <h6 className=" ps-5 m-0 text-dark">EXPERIENCES</h6>
+                                <h6 className=" ps-5 m-0 text-dark">PROJETS PERSONNELS</h6>
                             </div>
                             {hover && (
                                 <Zoom top><Navprofile className="nav-profile"/></Zoom>
